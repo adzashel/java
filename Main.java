@@ -10,6 +10,7 @@ public  class Main {
 
         long toHour = minute / 60;
         long toDay = toHour / 24;
+        long hourRemainder = toHour % 24;
         long year = 365;
         long toYear = toDay / year;
         long yearRemainder = toDay % year; // cari sisa hari setelah 1 thn
@@ -17,7 +18,7 @@ public  class Main {
 
         System.out.println("\nKonversi waktu:");
         System.out.println(minute + " menit =  ");
-        System.out.println(toYear + " tahun " +  " dan " +  yearRemainder + " Hari ");
+        System.out.println(toYear + " tahun " +  " dan " +  yearRemainder + " Hari " + hourRemainder +  " jam ");
         // tahun dan hari
     }
 }
