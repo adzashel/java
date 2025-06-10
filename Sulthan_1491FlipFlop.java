@@ -16,8 +16,10 @@ public class Sulthan_1491FlipFlop {
             System.out.print(output + " ");
             i++;
         }
+        input.close();
         }
         
+
     }
 
 
