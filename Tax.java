@@ -12,6 +12,7 @@ public class Tax {
 
         // use nested if to determine the tax should user pay
         extracted(option, salary);
+        input.close();
     }
     public static void extracted(int option, long salary) {
         if(option == 1) {
